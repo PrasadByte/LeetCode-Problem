@@ -13,7 +13,6 @@ class ListNode {
         ListNode prev = null;
         ListNode next = null;
         ListNode curr = head;
-     // Create a hard-coded linked list: 1 -> 2 -> 3 -> 4 -> 5
 
         while (curr != null) {
             next = curr.next;

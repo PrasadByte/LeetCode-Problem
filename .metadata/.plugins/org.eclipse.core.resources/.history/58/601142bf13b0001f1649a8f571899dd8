@@ -1,0 +1,21 @@
+package linkedList;
+class node{
+	int data;
+	node next;
+	node(int data){
+		this.data=data;
+		next = null;
+	}
+	public node ReverseLinkedList(node head) {
+		node next= null;
+		node rev=null;
+		node cur=head;
+		while(cur!=null) {
+			cur
+		}
+	}
+}
+
+public class Practice {
+
+}

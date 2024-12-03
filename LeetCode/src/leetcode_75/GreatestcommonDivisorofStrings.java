@@ -7,11 +7,11 @@ public class GreatestcommonDivisorofStrings {
 	        if (!(str1 + str2).equals(str2 + str1))
 	            return "";
 	        // If strings are equal than return the substring from 0 to gcd of size(str1), size(str2)
-	        int gcd = gcd(str1.length(), str2.length());
-	        return str1.substring(0, gcd);
+	        int gc = gcd(str1.length(), str2.length());
+	        return str1.substring(0, gc);
 	    }
 
-	  public static int gcd(int a, int b) {
+	  public static	 int gcd(int a, int b) {
 	        while (b != 0) {
 	            int temp = a;
 	            a = b;

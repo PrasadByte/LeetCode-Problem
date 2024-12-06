@@ -11,7 +11,7 @@ public class KidsWiththeGreatestNumberofCandies {
             if (i > max) {
                 max = i;
             }
-        }
+        }//for boolean array
         List<Boolean> res = new ArrayList<>();
         for (int i : candies) {
             if (i + extraCandies >= max) {

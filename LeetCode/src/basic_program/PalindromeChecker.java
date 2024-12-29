@@ -4,7 +4,7 @@ public class PalindromeChecker {
 	public static boolean isPalindrome(String str) {
 		int left=0;
 		int right=str.length()-1;
-		//convert thr string to lower case to igonre case senstive 
+		//convert the string to lower case to igonre case senstive 
 		str=str.toLowerCase();
 		while(left<right) {
 			if(str.charAt(right)!=str.charAt(left)) {

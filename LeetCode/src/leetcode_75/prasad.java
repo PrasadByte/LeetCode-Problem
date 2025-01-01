@@ -22,7 +22,7 @@ public class prasad {
             } else {
                 result.add(false);
             }
-        }//fdf
+        }
         return result;
     }
 
